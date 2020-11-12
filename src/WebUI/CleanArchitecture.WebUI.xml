@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CleanArchitecture.WebUI</name>
+    </assembly>
+    <members>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ApiController.Command``2(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="Request"></typeparam>
+            <typeparam name="Response"></typeparam>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.ApiController.Query``2(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="Request"></typeparam>
+            <typeparam name="Response"></typeparam>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CleanArchitecture.WebUI.Controllers.TodoBasicController">
+            <summary>
+            Controlador de acciones api/TodoBasicController
+            </summary>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.TodoBasicController.Create(CleanArchitecture.Application.CommandsQueries.TodoBasics.Commands.Create.CreateTodoBasicRequest)">
+            <summary>
+            Add TodoBasic
+            </summary>
+            <remarks>
+            Create new record for TodoBasic
+            </remarks>
+            <param name="command">Instance for CreateTodoBasicRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchitecture.WebUI.Controllers.TodoBasicController.Update(CleanArchitecture.Application.CommandsQueries.TodoBasics.Commands.Update.UpdateTodoBasicRequest)">
+            <summary>
+            Update TodoBasic
+            </summary>
+            <remarks>
+            Update a specific record for TodoBasic
+            </remarks>
+            <param name="command">Instance for UpdateTodoBasicRequest</param>
+            <returns></returns>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Version1">
+            <summary>
+            Swagger Version.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Title">
+            <summary>
+            Swagger TermsOfService.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Description">
+            <summary>
+            Swagger Description.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.TermsOfService">
+            <summary>
+            Swagger TermsOfService.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactName">
+            <summary>
+            Swagger ContactName.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactEmail">
+            <summary>
+            Swagger ContactEmail.
+            </summary>
+        </member>
+        <member name="F:CleanArchitecture.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactUrl">
+            <summary>
+            Swagger ContactUrl.
+            </summary>
+        </member>
+    </members>
+</doc>
