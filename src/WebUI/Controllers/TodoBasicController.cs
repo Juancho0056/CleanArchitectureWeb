@@ -22,6 +22,9 @@ namespace CleanArchitecture.WebUI.Controllers
         /// <summary>
         /// Add TodoBasic
         /// </summary>
+        /// <summary>
+        /// Add TodoBasic
+        /// </summary>
         /// <remarks>
         /// Create new record for TodoBasic
         /// </remarks>
